@@ -1,6 +1,6 @@
 # wooting-overlay
 
-This is an overlay similar to [KeyOverlay](https://github.com/Blondazz/KeyOverlay) however built for an Analog keyboard in mind. It supports the Wooting 60HE, the Wooting Two HE and the Wooting UwU.
+This is an osu! key overlay similar to [KeyOverlay](https://github.com/Blondazz/KeyOverlay) however built for an Analog keyboard in mind. It supports the Wooting 60HE, the Wooting Two HE and the Wooting UwU.
 
 ## Config
 
@@ -11,3 +11,7 @@ It also allows you to set the sample size. This is how many samples are shown on
 ## OBS Capture
 
 You should be able to capture this using the 'Game Capture' element in OBS, and tick 'Allow Transparency' to show it over the top of existing elements.
+
+## Supported Platforms
+
+Currently only Windows is supported, but other platforms may be added in future.
