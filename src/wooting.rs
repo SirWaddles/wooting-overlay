@@ -84,6 +84,10 @@ impl WootingData {
     pub fn copy_data(&self) -> Vec<WootingEntry> {
         self.data.clone()
     }
+
+    pub fn borrow_data(&self) -> &Vec<WootingEntry> {
+        &self.data
+    }
 }
 
 fn run_thread(wdata: Arc<Mutex<WootingData>>) -> OResult<()> {
